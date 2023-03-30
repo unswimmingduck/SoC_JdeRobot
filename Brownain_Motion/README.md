@@ -5,7 +5,7 @@
 - [Background](#background)
 - [Install](#install)
 - [Usage](#usage)
-- [Result show](#badge)
+- [Result show](#Result)
 
 ## Background
 
