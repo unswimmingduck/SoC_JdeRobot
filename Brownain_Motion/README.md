@@ -57,9 +57,11 @@ If you want to visualize the track of the particle, you can run the following co
 python main.py --screen-width=600 --screen-length=800 --radius=6 --output-track=True
 ```
 ## Result
+Through the following gif we can see the simulation of Brownian Motion directly:
 <div align=center>
-<img src="https://github.com/unswimmingduck/SoC_JdeRobot/blob/master/Brownain_Motion/result/result.gif" width="400" height="400">
+<img src="https://github.com/unswimmingduck/SoC_JdeRobot/blob/master/Brownain_Motion/result/result.gif" width="350" height="350">
 </div>
+What's more, we can use relevant command to plot the track of particle by Matlotlib. The following picture is the reult which is ploted by the Matplotlib:
 <div align=center>
-<img src="https://github.com/unswimmingduck/SoC_JdeRobot/blob/master/Brownain_Motion/result/result.png" width="400" height="400">
+<img src="https://github.com/unswimmingduck/SoC_JdeRobot/blob/master/Brownain_Motion/result/result.png" width="350" height="350">
 </div>
