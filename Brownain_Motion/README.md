@@ -57,4 +57,9 @@ If you want to visualize the track of the particle, you can run the following co
 python main.py --screen-width=600 --screen-length=800 --radius=6 --output-track=True
 ```
 ## Result
-![image](https://github.com/unswimmingduck/SoC_JdeRobot/blob/master/Brownain_Motion/result/result.png)
+<div align=center>
+<img src="https://github.com/unswimmingduck/SoC_JdeRobot/blob/master/Brownain_Motion/result/result.gif" width="400" height="400">
+</div>
+<div align=center>
+<img src="https://github.com/unswimmingduck/SoC_JdeRobot/blob/master/Brownain_Motion/result/result.png" width="400" height="400">
+</div>
