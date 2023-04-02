@@ -63,7 +63,7 @@ In this excrise, you should write a code program to cotroll the F1 to follow the
 <img src = "https://img.shields.io/badge/opencv-2-orange">
 
 In order to making sure that the F1 always follow the line, we should detect the line and check the how far the F1 deviates from the center of the line. Then, accroding to the deviation, we control the angular velocity of F1 to make sure the F1 follow the line.
-<div align=center><img src="https://github.com/unswimmingduck/SoC_JdeRobot/tree/master/JdeRobot_excrise/Follow_Line/README/Follow_Line.png"></div>
+<div align=center><img src="https://github.com/unswimmingduck/SoC_JdeRobot/blob/master/JdeRobot_excrise/Follow_Line/README/Follow_Line.png" width="350" height="350"></div>
 ### 1.1 The detection of the line
 **Firstly**, we should convert image format. We will convert the BGR image to HSV image. This is because that **HSV** is very intuitive to express the hue, vividness and brightness of the color, convenient for color comparison. In the color space of HSV, it is easier to track objects of a certain color than BGR. It is often used to segment objects of a specified color.
 
@@ -77,7 +77,7 @@ We can use the **cv2.moments()** to compute the center of the line in the image.
 
 ### 1.4 Use the PID to control the F1
 In this situation, we can directly set the angular velocity of the F1. So we chose the **Positional PID** to controll the F1. The equation of the **Positional PID** is in the following:
-<div align=center><img src="https://github.com/unswimmingduck/SoC_JdeRobot/tree/master/JdeRobot_excrise/Follow_Line/README/Positional_PID.png"></div>
+<div align=center><img src="https://github.com/unswimmingduck/SoC_JdeRobot/blob/master/JdeRobot_excrise/Follow_Line/README/Positional_PID.png"></div>
 
 **What's more, the Kp, Ki, Kd in the github folder is not correct. So if you want to know the right parameters please leave a message or send me an email(zhoum1440@gmail.com)**.  
 <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
