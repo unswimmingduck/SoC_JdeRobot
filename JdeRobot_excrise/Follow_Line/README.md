@@ -1,9 +1,10 @@
 
 # Excrise
 
-<div align=center><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white">   <img src="
+<div align=center><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white"> <img src="
 https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"> 
 </div>
+
 ## Table of Contents
 
 - [Docker](#docker)
@@ -11,7 +12,7 @@ https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docke
 
 
 # 1.  Docker
-
+<img src="https://img.shields.io/badge/Docker----blue">
 ### 1.1 [The introduction of Docker](https://www.infoworld.com/article/3310941/why-you-should-use-docker-and-containers.html)
 
 Docker containers provide a way to get a grip on software. You can use Docker to wrap up an application in such a way that its deployment and runtime issues—how to expose it on a network, how to manage its use of storage and memory and I/O, how to control access permissions—are handled outside of the application itself, and in a way that is consistent across all “containerized” apps. You can run your Docker container on any OS-compatible host (Linux or Windows) that has the Docker runtime installed.
@@ -35,7 +36,8 @@ docker pull jderobot/robotics-academy:latest
 ```
 You can get more information about how to pull the current distribution of Robotics Academy Docker Image on [JdeRobot official web](https://jderobot.github.io/RoboticsAcademy/user_guide/).
 
-### 1.4 Using the Docker to perform the exercises
+###  1.4 Using the Docker to perform the exercises
+
 **Firstly**,  you should start the Docker. Depending on different types that you deploy the Docker on, there have different commands to start the Docker. If you use the Ubuntu to deploy the Docker, you can use the following command on the terminal to start the Docker service:
 ```sh
 sudo service docker start
@@ -48,6 +50,9 @@ docker run --rm -it -p 8000:8000 -p 2303:2303 -p 1905:1905 -p 8765:8765 -p 6080:
 You can get more informations about how to using the Docker to perform the exercises on the [JdeRobot official web](https://jderobot.github.io/RoboticsAcademy/user_guide/).
 
 # 2. Excrise
+
+<img src="http://ForTheBadge.com/images/badges/made-with-python.svg">
+
 
 ##  Follow Line
 
@@ -82,5 +87,4 @@ In this situation, we can directly set the angular velocity of the F1. So we cho
 
 You can watch the result of my excrise in [YouTube](https://youtu.be/-oZB0JRg9Ho). 
 
----
-<img src="http://ForTheBadge.com/images/badges/made-with-python.svg">
+
